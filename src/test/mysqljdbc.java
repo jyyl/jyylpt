@@ -24,6 +24,9 @@ public class mysqljdbc {
 	                                                                //user 为你表的名称 
 	        while (rs.next()) { 
 	          System.out.println(rs.getString("id")); 
+	          
+	          
+	          
 	        } 
 	    } 
 	    catch (Exception e) { 
